@@ -6,9 +6,7 @@ class MyInput extends React.Component{
     this.textInput.focus();
     //console.log(this.textInput.value)
   }
-  componentWillMount(){
-    this.props.setValue(this.props.value);
-  }
+  
   render() {
     return (
       <div >
